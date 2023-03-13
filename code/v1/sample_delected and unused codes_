@@ -1,0 +1,60 @@
+d = bhatta_dist(cr,tr)
+
+
+print(constant_w * math.exp(-d/(2*(sigma**2))))
+
+e = bhatta_dist(cr,cr)
+
+
+print(constant_w * math.exp(-e/(2*(sigma**2))))
+
+f = bhatta_dist(tr,tr)
+
+
+print(constant_w * math.exp(-f/(2*(sigma**2))))
+
+
+print(d/(d+e+f))
+print(e/(d+e+f))
+print(f/(d+e+f))
+
+
+
+def bhatta_dist(p,q):
+	import math 
+	import numpy as np
+	sum =0
+	#print('tttttttttt')
+	#print(q.shape)
+	#print(p.shape)
+	temp = np.zeros((len(p),3))
+	temp1 = np.zeros((len(p),3))
+	sum = 0 
+	for i in range(len(p)):
+
+		for j in range(3):
+			#print(q[i][j])
+			temp[i] = np.dot(q[i,:],p[i,:])
+			#print (temp[i])
+			temp[i][j] = math.sqrt(max(0.0,q[i][j]))
+
+			temp1[i][j] = math.sqrt(max(0.0,p[i][j]))
+			sum = sum + (temp[i][j])*(temp1[i][j])
+
+
+	#sum = np.dot(temp,temp1)	
+
+		
+	#print(sum)
+
+	d = sum
+
+	#print(d)
+
+	
+	d = math.sqrt(1 - d)
+
+	#print(sum(p))
+	#print('333######################################################')
+	#print(d)
+	return d 
