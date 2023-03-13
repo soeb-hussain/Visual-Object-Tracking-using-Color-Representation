@@ -8,6 +8,6 @@ Below, I have demonstrated the functioning of the object detection model develop
 
 
 ![](https://github.com/soeb-hussain/Visual-Object-Tracking-using-Color-Representation/blob/main/git_utility/jogging.gif)
-![](https://github.com/soeb-hussain/Visual-Object-Tracking-using-Color-Representation/blob/main/git_utility/tiger.gif)
+<!-- ![](https://github.com/soeb-hussain/Visual-Object-Tracking-using-Color-Representation/blob/main/git_utility/tiger.gif) -->
 ![](https://github.com/soeb-hussain/Visual-Object-Tracking-using-Color-Representation/blob/main/git_utility/basketball.gif)
 ![](https://github.com/soeb-hussain/Visual-Object-Tracking-using-Color-Representation/blob/main/git_utility/sunshade.gif)
