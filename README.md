@@ -5,3 +5,8 @@ The covariance matrix helps tracker in adjusting with changing shape and size of
 
 
 Below, I have demonstrated the functioning of the object detection model developed using the VOT dataset.
+
+![](https://github.com/soeb-hussain/Visual-Object-Tracking-using-Color-Representation/blob/main/git_utility/basketball.gif)
+![](name-of-giphy.gif)
+![](name-of-giphy.gif)
+![](name-of-giphy.gif)
